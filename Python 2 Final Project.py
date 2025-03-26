@@ -10,50 +10,6 @@ root.title("GUI CRUD")
 root.geometry('1000x500')
 root.resizable(False, False) #x, y
 
-# canvas = tk.Canvas(root, width=1000, height=500)
-# canvas.pack()
-# 
-# def hex_to_rgb(hex_color):
-#     """Convert a hexadecimal color to an RGB tuple."""
-#     hex_color = hex_color.lstrip('#')
-#     return tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
-#
-# def create_gradient(canvas, width, height):
-#     """Create a horizontal gradient on the canvas with random colors."""
-#     # Generate two random colors
-#     start_color = "#{:06x}".format(random.randint(0, 0xFFFFFF))  # Random hex color
-#     end_color = "#{:06x}".format(random.randint(0, 0xFFFFFF))    # Random hex color
-#
-#     # Convert hex colors to RGB tuples
-#     r1, g1, b1 = hex_to_rgb(start_color)
-#     r2, g2, b2 = hex_to_rgb(end_color)
-#
-#     # Create the gradient
-#     for i in range(width):
-#         # Interpolate the color at this column
-#         r = int(r1 + (r2 - r1) * i / width)
-#         g = int(g1 + (g2 - g1) * i / width)
-#         b = int(b1 + (b2 - b1) * i / width)
-#         color = '#{:02x}{:02x}{:02x}'.format(r, g, b)
-#
-#         # Draw a vertical line with the current color
-#         canvas.create_line(i, 0, i, height, fill=color)
-#
-# # Create the main window
-# root = tk.Tk()
-# root.geometry("1000x500")
-# root.title("Random Gradient Background")
-#
-# # Create a Canvas to draw the gradient
-# canvas = tk.Canvas(root, width=1000, height=500)
-# canvas.pack()
-#
-# # Generate and display the random gradient
-# create_gradient(canvas, 1000, 500)
-#
-#
-
-
 #tampil
 Tulisan_Tampil = Label(root, text="Tampil:", font=('Arial', 10))
 Tulisan_Tampil.place(x = 500, y = 50)
